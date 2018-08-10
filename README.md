@@ -7,7 +7,8 @@ and then he was like
 and so i was like  
 ![no we compete xd](https://i.gyazo.com/7811fe866969a1562460126217b1df9e.png)  
 
-anyways im competing for this thing (or we might work together not sure how much time i have)
+anyways we're collaborating now
+![god damnit i wanted to compete (actually this is despacito writing this, but I mean... what Gymno would've said)](https://i.hackforjes.us/i/xptg5728.png)
 
 # Discord-Link-Parser
 Parses those pesky giant Discord message links and resolves an actual message if available.
