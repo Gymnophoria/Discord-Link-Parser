@@ -1,3 +1,18 @@
+# Discord-Link-Parser
+Parses those pesky giant Discord message links and resolves an actual message if available.
+
+Invite soon:tm:
+
+Essentially, this bot will take Discord message links (those ones that are long and annoying and link to a message) and convert them to a readable embed, if possible. 
+
+### Example usage
+*Coming soon*
+
+### TODO
+See the [Trello board](https://trello.com/b/3D1F6ijj/shortjump)
+
+### History
+
 So you see, it started off like this on a fine Friday afternoon:  
 ![damn pesky links](https://i.gyazo.com/d3c07c93426b8088a5fa6fe4092f3452.png)  
 and then i was like  
@@ -7,26 +22,5 @@ and then he was like
 and so i was like  
 ![no we compete xd](https://i.gyazo.com/7811fe866969a1562460126217b1df9e.png)  
 
-anyways we're collaborating now
+anyways we're collaborating now  
 ![god damnit i wanted to compete (actually this is despacito writing this, but I mean... what Gymno would've said)](https://i.hackforjes.us/i/xptg5728.png)
-
-# Discord-Link-Parser
-Parses those pesky giant Discord message links and resolves an actual message if available.
-
-Invite soon:tm:
-
-Essentially, this bot will take huge discordapp invites and send an embed from them.
-
-TODO:
- - [ ] Basic embed functionality
- - [ ] Support for further thingimagigginess
-   - [ ] Embeds
-   - [ ] Attachments
-   - [ ] System messages (pins and join messages)
- - [ ] Settings
-   - [ ] Enable/disable per guild
-   - [ ] Original message deletion
-   - [ ] Link creation (see below)
-   - [ ] Extra message metadata
- - [ ] Link shortening
- - [ ] Suggestions
