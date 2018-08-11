@@ -24,8 +24,8 @@ client.on('ready', () => {
 });
 
 client.on('debug', (info) => {
-    if (debug) return logger.warn(info)
-})
+    if (debug) return logger.warn(info);
+});
 
 client.on('message', messageEvent);
 
