@@ -29,6 +29,6 @@ client.on('debug', (info) => {
 
 client.on('message', messageEvent);
 
-client.login(config.token).catch(() => {
-    logger.error('Turn on your internet then try again later you dumbass');
+client.login(config.token).catch((something) => {
+    logger.error('Try... turning on your internet?');
 });
