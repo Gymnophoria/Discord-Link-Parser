@@ -1,0 +1,20 @@
+{
+  "name": "shortjump",
+  "version": "1.0.0",
+  "description": "uhh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/Gymnophoria/ShortJump.git"
+  },
+  "author": "Gymnophoria & GlitchMasta47",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "discord.js": "^11.4.0",
+    "ws": "^6.0.0"
+  }
+}
