@@ -60,5 +60,21 @@ typings/
 # next.js build output
 .next
 
-# tokens and shit
-core/uf.json
+# phpstorm
+.idea
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VSC
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# config
+core/config.json
