@@ -6,16 +6,29 @@
 
 let Discord = require('discord.js');
 let config = require('./core/config.json');
-let logger = require("./core/func/logger");
+let logger = require('./core/func/logger');
+let messageEvent = require('./core/events/message');
 
-logger.info("Booting");
+global.debug = false; // enable to get like *almost* everything the client is doing in the terminal
 
-// ofc there's not a client.on('message'), go fuck yourself
+logger.info('Booting');
 
 let client = new Discord.Client({
     fetchAllMembers: true,
-    disabledEvents: ["TYPING_START"],
+    disabledEvents: ['TYPING_START'],
     disableEveryone: true
 });
 
-client.login(config.token);
+client.on('ready', () => {
+    logger.info('I\'m ready, I\'m ready, I\'m ready for work!');
+});
+
+client.on('debug', (info) => {
+    if (debug) return logger.warn(info)
+})
+
+client.on('message', messageEvent);
+
+client.login(config.token).catch(() => {
+    logger.error('Turn on your internet then try again later you dumbass');
+});
