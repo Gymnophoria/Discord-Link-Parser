@@ -1,4 +1,4 @@
-# Discord-Link-Parser
+# ShortJump
 Parses those pesky giant Discord message links and resolves an actual message if available.
 
 Invite soon:tm:
