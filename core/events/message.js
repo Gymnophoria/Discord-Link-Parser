@@ -39,7 +39,7 @@ module.exports = async (message) => {
             require('child_process').exec("pm2 restart .")
             return process.exit(1);
         });
-    } else {
+    } else if (!global.admincheck(message.author.id) && message.content.startsWith('s!reboot')) {
         message.channel.send('lol no').then(() => {
             global.logger.warn(`Some dumbass ${message.author.tag} tried to reboot me`)
         })

@@ -9,9 +9,11 @@ module.exports = (userId) => {
         '249982063460089857'
     ];
 
+    maybe = false;
+
     admins.forEach(lolok => {
-        if (userId == lolok) return true;
+        if (userId == lolok) maybe = true;
     });
 
-    return false;
+    return maybe;
 };
