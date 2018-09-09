@@ -6,7 +6,7 @@ Invite soon:tm:
 Essentially, this bot will take Discord message links (those ones that are long and annoying and link to a message) and convert them to a readable embed, if possible. 
 
 ### Example usage
-*Coming soon*
+![Example](https://i.hackforjes.us/i/no84o67l.png)
 
 ### TODO
 See the [Trello board](https://trello.com/b/3D1F6ijj/shortjump)
