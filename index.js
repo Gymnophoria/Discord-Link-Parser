@@ -10,6 +10,7 @@ let logger = require('./core/func/logger');
 let messageEvent = require('./core/events/message');
 
 global.debug = false; // enable to get like *almost* everything the client is doing in the terminal
+global.logger = logger; // hey I want to log shit in... other files
 
 logger.info('Booting');
 
