@@ -21,7 +21,7 @@ let client = new Discord.Client({
 });
 
 client.on('ready', () => {
-    logger.info('I\'m ready, I\'m ready, I\'m ready for work!');
+    logger.info(`I'm ready, I'm ready, I'm ready for work! I've got ${client.guilds.size} guilds and ${client.users.size} users!`);
 });
 
 client.on('debug', (info) => {
