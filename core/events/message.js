@@ -32,13 +32,17 @@ module.exports = async (message) => {
         return;
     }
 
-    if ((message.author.id === '317047307839471616' || message.author.id === '179114344863367169') && message.content.startsWith('s!reboot')) {
+    if (global.admincheck(message.author.id) && message.content.startsWith('s!reboot')) {
         message.channel.send('oh fuuuuck I\'m going down').then(() => {
             client.destroy();
             global.logger.warn(`I was told to reboot by ${message.author.tag}`)
             require('child_process').exec("pm2 restart .")
             return process.exit(1);
         });
+    } else {
+        message.channel.send('lol no').then(() => {
+            global.logger.warn(`Some dumbass ${message.author.tag} tried to reboot me`)
+        })
     }
 
     if (!linkRegex.test(message.content)) return;
