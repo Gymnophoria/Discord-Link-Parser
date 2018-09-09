@@ -7,10 +7,12 @@
 let Discord = require('discord.js');
 let config = require('./core/config.json');
 let logger = require('./core/func/logger');
+let admincheck = require('./core/func/admincheck');
 let messageEvent = require('./core/events/message');
 
 global.debug = false; // enable to get like *almost* everything the client is doing in the terminal
 global.logger = logger; // hey I want to log shit in... other files
+global.admincheck = admincheck; // I also probably don't want to use a lot of ifs for checking user ids
 
 logger.info('Booting');
 
